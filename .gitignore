@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Composer template
+composer.phar
+/vendor/
+/tests/_output
+/tests/_bootstrap.php
+/tests/acceptance/_bootstrap.php
+/tests/functional/_bootstrap.php
+/tests/unit/_bootstrap.php
+/tests/wpunit/_bootstrap.php
+/tests/acceptance.suite.yml
+/tests/functional.suite.yml
+/tests/unit.suite.yml
+/tests/wpunit.suite.yml
+/codeception.yml
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+

@@ -1,0 +1,34 @@
+{
+  "name": "lucatume/rest-query",
+  "description": "REST API powered queries.",
+  "type": "wordpress-plugin",
+  "license": "GPL v2.0",
+  "authors": [
+    {
+      "name": "Luca Tumedei",
+      "email": "luca@theaveragedev.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-0": {
+      "restquery_": "src/"
+    }
+  },
+  "require": {
+    "xrstf/composer-php52": "^1.0",
+    "lucatume/di52": "^1.2",
+    "lucatume/wp-browser": "dev-master"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-update-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-autoload-dump": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ]
+  }
+}
