@@ -20,5 +20,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - `restquery_get_posts` function
 
 [unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.3...HEAD
-[0.0.3]: https://github.com/lucatume/rest-query/compare/0.2.0...0.3.0
-[0.0.2]: https://github.com/lucatume/rest-query/compare/0.1.0...0.2.0
+[0.0.3]: https://github.com/lucatume/rest-query/compare/0.0.2...0.0.3
+[0.0.2]: https://github.com/lucatume/rest-query/compare/0.0.1...0.0.2
