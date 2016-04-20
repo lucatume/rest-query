@@ -4,15 +4,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 
-## 0.0.3 - 2016-04-21
+## [0.0.3] - 2016-04-21
 ### Added
 - support for multiple post types query
 
-## 0.0.2 - 2016-04-20
+## [0.0.2] - 2016-04-20
 ### Fixed
 - missing post type defaulting
 
-## 0.0.1 - 2016-04-19
+## [0.0.1] - 2016-04-19
 ### Added
 - initial commit
 - `restify` query variable and support
