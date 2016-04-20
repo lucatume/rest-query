@@ -25,7 +25,7 @@ class restquery_Posts_Controller implements restquery_Posts_ControllerInterface 
 	public function setUpRequest( WP_Query $query ) {
 		$this->request['context'] = 'view';
 		$postType                 = $query->get( 'post_type', 'post' );
-		$postType                 = ! empty( $postType ) ? $postType : 'post';
+		$postType                 = ! empty( $postType ) && $postType !== 'any' ? $postType : 'post';
 		$this->controller         = new WP_REST_Posts_Controller( $postType );
 	}
 
